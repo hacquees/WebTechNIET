@@ -1,129 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-<title>Browser</title>
+
+<head>
+    <style>
+        .table{background-color: rgb(221, 121, 208);}
+        .coloring{background-color: rgb(0, 89, 255);}
+        .coloring1{background-color: rgb(52, 207, 86);}
+        .coloring2{background-color: rgb(233, 99, 46);}
+    </style>
+    <title>TimeTable</title>
 </head>
+
 <body>
-  <table border>   
-    <tr>
-      <th colspan=8 >Class Cordinator:  Ms NEETI TANEJA </th>
-      <th colspan=2>CSE V-A</th>
-    </tr>
-    <tr>
-      <th>Day Time/Mode</th>
-      <th>9:00 to 10:00</th>
-      <th>10:00 to 10:50</th>
-      <th>10:50 to 11:40</th>
-      <th>11:40 to 12:30</th>
-      <th>12:30 to 01:30</th>
-      <th>01:30 to 02:30</th>  
-      <th>02:30 to 03:20</th>
-      <th>03:20 to 04:10</th>
-      <th>04:10 to 05:00</th>
-    </tr>
-    <tr>
-      <th rowspan=2>MONDAY</th>
-      <td>DBMS</td>
-      <td>DT</td>
-      <td colspan=2>WT LAB</td>
-      <td ROWSPAN=10>Lunch</td>
-      <td>AI</td>
-      <td>ML</td>  
-      <td>CD</td>
-      <td>MOOCS</td>
-    </tr>
-    <tr>
-      <td> 302D NTJ </td>
-      <td> 302D RSP </td>
-      <td colspan=2> 302D RJT/SWP </td>
-      <td> 302D DPJ </td>
-      <td> 302D RNK </td>
-      <td> 302D RHK </td>
-      <td> 302D MDN </td>
-    </tr>
-     <tr>
-      <th rowspan=2>TUESDAY</th>
-      <td>CD</td>
-      <td>AI</td>
-      <td>ML</td>
-      <td>DBMS</td>
-      <td>COI</td>  
-      <td>DBMS</td>
-      <td COLSPAN=2>CLUB AND TRAINING</td>
-    </tr>
-    
-    <tr>
-      <td> 302D RHK </td>
-      <td> 302D DPJ </td>
-      <td > 302D RNK </td>
-      <td> 302D NTJ </td>
-      <td> 302D ARK </td>
-      <td> 302D NTJ </td>
-      <td COLSPAN=2> 302D RKS/VBT </td>
-      
-    </tr>
-    
-	 <tr>
-      <th rowspan=2>WEDNESDAY</th>
-      <td colspan=2>INTERSHIP</td>
-      <td>CD</td>
-      <td >AI</td>
-       <td>ML</td>
-      <td>COI</td>  
-      <td>CD</td>
-      <td>DT</td>
-    </tr>
-    <tr>
-      <td COLSPAN=2> 302D RKS/MDN </td>
-      <td> 302D RHK </td>
-      <td > 302D DPJ </td>
-      <td> 302D RNK </td>
-      <td> 302D ARK </td>
-      <td> 302D RHK </td>
-      <td > 302D RSP </td>
-      
-    </tr>
-    <tr>
-      <th rowspan=2>THRUSDAY</th>
-      <td>MOOCS</td>
-      <td>COI</td>
-      <td colspan=2>DBMS LAB</td>
-      <td>DT</td>
-      <td>WT</td>  
-      <td colspan=2>COMPETITIVE CODING</td>
-  
-    </tr>
-     <tr>
-  
-        <td> 302D MDN </td>
-        <td > 302D ARK </td>
-       <td COLSPAN=2> 302D NTJ/RNK </td> 
-        <td> 302D RSP </td>
-        <td > 302D RJT </td>
-        <td COLSPAN=2> 302D MDN/RJT </td>
-        
-    </tr>
-    <tr>
-    <th  rowspan=2>FRIDAY</th>
-      <td>CD</td>
-      <td>DBMS</td>
-      <td colspan=2>CD LAB</td>
-      <td>DT</td>
-      <td>AI</td>  
-      <td>ML</td>
-      <td>DBMS</td>
-    </tr>
-   
-     <tr>
-        <td > 302D RHK </td>
-        <td> 302D NTJ </td>
-        <td COLSPAN=2> 302D RHK/IBR </td>
-        <td> 302D RSP </td>
-        <td> 302D DPJ </td>
-        <td> 302D RNK </td>
-        <td > 302D NTJ </td>
-      
-    </tr>
-  </table>
+    <table border class="table">
+        <tr class="coloring1">
+            <th colspan=8>Class Cordinator: Ms NEETI TANEJA </th>
+            <th colspan=2>CSE V-A</th>
+        </tr>
+        <tr class="coloring">
+            <th>Day Time/Mode</th>
+            <th>9:00 to 10:00</th>
+            <th>10:00 to 10:50</th>
+            <th>10:50 to 11:40</th>
+            <th>11:40 to 12:30</th>
+            <th>12:30 to 01:30</th>
+            <th>01:30 to 02:30</th>
+            <th>02:30 to 03:20</th>
+            <th>03:20 to 04:10</th>
+            <th>04:10 to 05:00</th>
+        </tr>
+        <tr>
+            <th rowspan=2  class="coloring2">MONDAY</th>
+            <td>DBMS</td>
+            <td>DT</td>
+            <td colspan=2>WT LAB</td>
+            <td ROWSPAN=10 class="coloring">Lunch</td>
+            <td>AI</td>
+            <td>ML</td>
+            <td>CD</td>
+            <td>MOOCS</td>
+        </tr>
+        <tr>
+            <td> 302D NTJ </td>
+            <td> 302D RSP </td>
+            <td colspan=2> 302D RJT/SWP </td>
+            <td> 302D DPJ </td>
+            <td> 302D RNK </td>
+            <td> 302D RHK </td>
+            <td> 302D MDN </td>
+        </tr>
+        <tr>
+            <th rowspan=2 class="coloring2">TUESDAY</th>
+            <td>CD</td>
+            <td>AI</td>
+            <td>ML</td>
+            <td>DBMS</td>
+            <td>COI</td>
+            <td>DBMS</td>
+            <td COLSPAN=2>CLUB AND TRAINING</td>
+        </tr>
+
+        <tr>
+            <td> 302D RHK </td>
+            <td> 302D DPJ </td>
+            <td> 302D RNK </td>
+            <td> 302D NTJ </td>
+            <td> 302D ARK </td>
+            <td> 302D NTJ </td>
+            <td COLSPAN=2> 302D RKS/VBT </td>
+
+        </tr>
+
+        <tr>
+            <th rowspan=2 class="coloring2">WEDNESDAY</th>
+            <td colspan=2>INTERSHIP</td>
+            <td>CD</td>
+            <td>AI</td>
+            <td>ML</td>
+            <td>COI</td>
+            <td>CD</td>
+            <td>DT</td>
+        </tr>
+        <tr>
+            <td COLSPAN=2> 302D RKS/MDN </td>
+            <td> 302D RHK </td>
+            <td> 302D DPJ </td>
+            <td> 302D RNK </td>
+            <td> 302D ARK </td>
+            <td> 302D RHK </td>
+            <td> 302D RSP </td>
+
+        </tr>
+        <tr>
+            <th rowspan=2 class="coloring2">THRUSDAY</th>
+            <td>MOOCS</td>
+            <td>COI</td>
+            <td colspan=2>DBMS LAB</td>
+            <td>DT</td>
+            <td>WT</td>
+            <td colspan=2>COMPETITIVE CODING</td>
+
+        </tr>
+        <tr>
+
+            <td> 302D MDN </td>
+            <td> 302D ARK </td>
+            <td COLSPAN=2> 302D NTJ/RNK </td>
+            <td> 302D RSP </td>
+            <td> 302D RJT </td>
+            <td COLSPAN=2> 302D MDN/RJT </td>
+
+        </tr>
+        <tr>
+            <th rowspan=2 class="coloring2">FRIDAY</th>
+            <td>CD</td>
+            <td>DBMS</td>
+            <td colspan=2>CD LAB</td>
+            <td>DT</td>
+            <td>AI</td>
+            <td>ML</td>
+            <td>DBMS</td>
+        </tr>
+
+        <tr>
+            <td> 302D RHK </td>
+            <td> 302D NTJ </td>
+            <td COLSPAN=2> 302D RHK/IBR </td>
+            <td> 302D RSP </td>
+            <td> 302D DPJ </td>
+            <td> 302D RNK </td>
+            <td> 302D NTJ </td>
+
+        </tr>
+    </table>
 </body>
+
 </html>
